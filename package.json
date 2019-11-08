@@ -1,0 +1,33 @@
+{
+  "name": "mines",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/bundle.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-arbaugh/mines.git"
+  },
+  "author": "Jonathon Arbaugh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/j-arbaugh/mines/issues"
+  },
+  "homepage": "https://github.com/j-arbaugh/mines#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babelify": "^10.0.0",
+    "browserify": "^16.5.0",
+    "esm": "^3.2.25",
+    "gulp": "^4.0.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "glob": "^7.1.6"
+  }
+}
